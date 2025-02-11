@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    color: #e3edf7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    width: 160px;
+    height: 160px;
+    /*background: cornflowerblue;*/
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /*border: 1px solid red;*/
+    padding: 20px;
+    box-shadow: 6px;
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /*border: 1px solid red;*/
+}
